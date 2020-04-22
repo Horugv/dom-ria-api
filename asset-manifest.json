@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dom-ria-api/static/css/main.0dc2ad5e.chunk.css",
+    "main.js": "/dom-ria-api/static/js/main.af58f1ff.chunk.js",
+    "main.js.map": "/dom-ria-api/static/js/main.af58f1ff.chunk.js.map",
+    "runtime-main.js": "/dom-ria-api/static/js/runtime-main.296293c0.js",
+    "runtime-main.js.map": "/dom-ria-api/static/js/runtime-main.296293c0.js.map",
+    "static/js/2.29fa37cd.chunk.js": "/dom-ria-api/static/js/2.29fa37cd.chunk.js",
+    "static/js/2.29fa37cd.chunk.js.map": "/dom-ria-api/static/js/2.29fa37cd.chunk.js.map",
+    "index.html": "/dom-ria-api/index.html",
+    "precache-manifest.7f4846a41be694a51396d3b59aaf3fae.js": "/dom-ria-api/precache-manifest.7f4846a41be694a51396d3b59aaf3fae.js",
+    "service-worker.js": "/dom-ria-api/service-worker.js",
+    "static/css/main.0dc2ad5e.chunk.css.map": "/dom-ria-api/static/css/main.0dc2ad5e.chunk.css.map",
+    "static/js/2.29fa37cd.chunk.js.LICENSE.txt": "/dom-ria-api/static/js/2.29fa37cd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.296293c0.js",
+    "static/js/2.29fa37cd.chunk.js",
+    "static/css/main.0dc2ad5e.chunk.css",
+    "static/js/main.af58f1ff.chunk.js"
+  ]
+}
