@@ -1,0 +1,64 @@
+.slidershow_container{
+    overflow: hidden;
+    width: 300px;
+    position: relative;
+    margin: 20px auto;
+    height: 200px;
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
+    border: 2px solid #36263B;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    //margin-top: 22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    background: rgba(0, 0, 0, .3);
+    border: none;
+    outline:  none;
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+    height: 100%;
+}
+
+@keyframes fade{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.index{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    background: #36263B;
+    color: #fff;
+}
+
+img{
+    height: 100%;
+}

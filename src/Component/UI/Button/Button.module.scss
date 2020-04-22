@@ -1,0 +1,34 @@
+
+.Button {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #99a1ad;
+    padding: 5px 10px;
+  
+    align-self: flex-end;
+    transition: .5s;
+    cursor: pointer;
+    outline: none;
+}
+
+.search{
+
+    &:hover{
+      transition: .5s;
+      background: #77d983;
+    }
+}
+
+.add{
+    &:hover{
+        transition: .5s;
+        background: #77d983;
+      }
+}
+
+.remove{
+    &:hover{
+        transition: .5s;
+        background: #bd1f11;
+      }
+}
