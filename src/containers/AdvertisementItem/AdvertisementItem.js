@@ -173,7 +173,7 @@ class AdvertisementItem extends Component {
           </div>
           {imgArr && <Slider imgArr = {imgArr}/>}
           
-          {console.log(this.state.inWishList, this.props.wishList)}
+         
           {!this.state.inWishList 
             ? <Button 
               cls = "add"
