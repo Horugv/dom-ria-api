@@ -105,11 +105,11 @@ class AdvertisementItem extends Component {
   stateWish = () => {
     if(this.props.wishList.indexOf(this.props.match.params.id) === -1){
       this.setState({
-        inWishList: true
+        inWishList: false
       })
     } else {
       this.setState({
-        inWishList: false
+        inWishList: true
       })
     }
   }
@@ -173,7 +173,7 @@ class AdvertisementItem extends Component {
           </div>
           {imgArr && <Slider imgArr = {imgArr}/>}
           
-          
+          {console.log(this.state.inWishList, this.props.wishList)}
           {!this.state.inWishList 
             ? <Button 
               cls = "add"
