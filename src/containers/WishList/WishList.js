@@ -50,16 +50,20 @@ class WishList extends Component {
     }
     
     componentDidMount() {
-        this.renderList()
+        if(localStorage.getItem('wishList') !== null){
+            this.renderList()
 
-        this.setState({wishListId: this.load().wishList})
-          
-        this.countOfPage()
+            this.setState({wishListId: this.load().wishList})
+              
+            this.countOfPage()
+        }
+      
         
     }
 
     
     render () {
+        
         
         return (
             <div className = {classes.WishList}>
