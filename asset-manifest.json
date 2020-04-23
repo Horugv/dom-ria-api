@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dom-ria-api/static/css/main.0dc2ad5e.chunk.css",
-    "main.js": "/dom-ria-api/static/js/main.c81c0a00.chunk.js",
-    "main.js.map": "/dom-ria-api/static/js/main.c81c0a00.chunk.js.map",
+    "main.js": "/dom-ria-api/static/js/main.ff4ad26f.chunk.js",
+    "main.js.map": "/dom-ria-api/static/js/main.ff4ad26f.chunk.js.map",
     "runtime-main.js": "/dom-ria-api/static/js/runtime-main.296293c0.js",
     "runtime-main.js.map": "/dom-ria-api/static/js/runtime-main.296293c0.js.map",
     "static/js/2.29fa37cd.chunk.js": "/dom-ria-api/static/js/2.29fa37cd.chunk.js",
     "static/js/2.29fa37cd.chunk.js.map": "/dom-ria-api/static/js/2.29fa37cd.chunk.js.map",
     "index.html": "/dom-ria-api/index.html",
-    "precache-manifest.7265896f1ea84850faa454ce70cee2f2.js": "/dom-ria-api/precache-manifest.7265896f1ea84850faa454ce70cee2f2.js",
+    "precache-manifest.5cc5dbc44bec592715c51e79aed63914.js": "/dom-ria-api/precache-manifest.5cc5dbc44bec592715c51e79aed63914.js",
     "service-worker.js": "/dom-ria-api/service-worker.js",
     "static/css/main.0dc2ad5e.chunk.css.map": "/dom-ria-api/static/css/main.0dc2ad5e.chunk.css.map",
     "static/js/2.29fa37cd.chunk.js.LICENSE.txt": "/dom-ria-api/static/js/2.29fa37cd.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.296293c0.js",
     "static/js/2.29fa37cd.chunk.js",
     "static/css/main.0dc2ad5e.chunk.css",
-    "static/js/main.c81c0a00.chunk.js"
+    "static/js/main.ff4ad26f.chunk.js"
   ]
 }
