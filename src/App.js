@@ -64,10 +64,10 @@ class App extends Component {
           
         
         <Switch>
-          <Route path = '/' exact component = {MainPage}/>
-          <Route path = '/wish-list-:page' render = {(props) => <WishList addInWishList = {this.addInWishList} removeFromWishList = {this.removeFromWishList} wishList = {this.state.wishListId} {...props}/> } />
-          <Route path = '/advertisement-:id' render = {(props) => <AdvertisementItem addInWishList = {this.addInWishList} removeFromWishList = {this.removeFromWishList} wishList = {this.state.wishListId} {...props}/>} />
-          <Route path = '/:page' render = {(props) => <AdvertisementList addInWishList = {this.addInWishList} removeFromWishList = {this.removeFromWishList} wishList = {this.state.wishListId} {...props}/>} />
+          <Route path = '/dom-ria-api/' exact component = {MainPage}/>
+          <Route path = '/dom-ria-api/wish-list-:page' render = {(props) => <WishList addInWishList = {this.addInWishList} removeFromWishList = {this.removeFromWishList} wishList = {this.state.wishListId} {...props}/> } />
+          <Route path = '/dom-ria-api/advertisement-:id' render = {(props) => <AdvertisementItem addInWishList = {this.addInWishList} removeFromWishList = {this.removeFromWishList} wishList = {this.state.wishListId} {...props}/>} />
+          <Route path = '/dom-ria-api/:page' render = {(props) => <AdvertisementList addInWishList = {this.addInWishList} removeFromWishList = {this.removeFromWishList} wishList = {this.state.wishListId} {...props}/>} />
         </Switch>
         
 

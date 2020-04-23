@@ -119,7 +119,7 @@ class Advertisements extends Component {
                   <div className = {classes.advertlist_desc}>
                     
                     <Link 
-                      to = {'/advertisement-' + this.props.id}
+                      to = {'/dom-ria-api/advertisement-' + this.props.id}
                       className = {classes.link}>
                         {`
                         

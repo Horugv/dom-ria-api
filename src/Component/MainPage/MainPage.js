@@ -6,8 +6,8 @@ import classes from './MainPage.module.scss'
 const MainPage = () => {
     return (
         <div className = {classes.MainPage}>
-            <Link to = {'/1'} className = {classes.btn}>Список оголошень</Link>
-            <Link to = {'/wish-list-1'}className = {classes.btn}>Список побажань</Link>
+            <Link to = {'/dom-ria-api/1'} className = {classes.btn}>Список оголошень</Link>
+            <Link to = {'/dom-ria-api/wish-list-1'}className = {classes.btn}>Список побажань</Link>
         </div>
     )
 }

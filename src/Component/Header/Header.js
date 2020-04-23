@@ -29,14 +29,14 @@ class Header extends Component {
         return (
             <header className = {cls.join(' ')}>
                 <div className = {classes.header_wrap}>
-                    <Link to = '/' className = {classes.logo}>Ігонін Є.Р.</Link>
+                    <Link to = '/dom-ria-api/' className = {classes.logo}>Ігонін Є.Р.</Link>
                     <nav className = {classes.navigation}>
                         <ul className = {classes.nav_list}>
                             <li className = {classes.nav_item}>
-                                <NavLink to = "/1" exact className = {classes.nav_link} activeClassName = {classes.active}>Головна</NavLink>
+                                <NavLink to = "/dom-ria-api/1" exact className = {classes.nav_link} activeClassName = {classes.active}>Головна</NavLink>
                             </li>
                             <li className = {classes.nav_item}>
-                                <NavLink to = "/wish-list-1" exact className = {classes.nav_link} activeClassName = {classes.active}>Список побажань</NavLink>
+                                <NavLink to = "/dom-ria-api/wish-list-1" exact className = {classes.nav_link} activeClassName = {classes.active}>Список побажань</NavLink>
                             </li>
                         </ul>
                     </nav>
